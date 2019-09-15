@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{config.title|escape}}</title>
+        <link rel="stylesheet" href="https://unpkg.com/disqusjs@0.2.0/dist/disqusjs.css">
+        <link rel="stylesheet" href="/assets/style.css">
+    </head>
+    <body>
+        <h1>{{post.title|escape}}</h1>
+        <p>日期：{{post.date|escape}}</p>
+        <hr>
+        <div class="post-content">{{post.content}}</div>
+        <div id="disqus_thread"></div>
+        <script src="https://unpkg.com/disqusjs@0.2.0/dist/disqus.js"></script>
+        <script>
+        var disqusjs = [];
+        disqusjs.config = {
+            shortname: '', // Your Disqus Shortname
+            identifier: '', // Your thread identifier
+            url: '', // Your page URL
+            api: '', // API Endpoint
+            apikey: '', // Your Disqus Application API Key
+            admin: '', // Disqus Moderator's Username
+            adminLabel: '' // Disqus Moderator Badge Text
+        };
+        </script>
+    </body>
+</html>
