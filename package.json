@@ -1,15 +1,15 @@
 {
-  "name": "myblog",
+  "name": "tiny-blog",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./bin/myblog preview views",
-    "create": "node ./bin/myblog create views",
-    "build": "node ./bin/myblog build views --output dist"
+    "start": "node ./bin/tinyBlog preview views",
+    "create": "node ./bin/tinyBlog create views",
+    "build": "node ./bin/tinyBlog build views --output dist"
   },
   "bin": {
-    "myblog": "./bin/myblog"
+    "tinyBlog": "./bin/tinyBlog"
   },
   "author": "",
   "license": "ISC",
