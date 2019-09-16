@@ -11,7 +11,7 @@
   "bin": {
     "tinyBlog": "./bin/tinyBlog"
   },
-  "author": "",
+  "author": "yxcs",
   "license": "ISC",
   "dependencies": {
     "commander": "^3.0.1",
@@ -25,5 +25,5 @@
     "swig": "^1.4.2"
   },
   "devDependencies": {},
-  "description": ""
+  "description": "一个简单的静态博客框架，使用markdown编写文档，转化成html，可实时预览"
 }
