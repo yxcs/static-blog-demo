@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/myblog preview views",
+    "create": "node ./bin/myblog create views",
+    "build": "node ./bin/myblog build views --output dist"
   },
   "bin": {
     "myblog": "./bin/myblog"
